@@ -20,8 +20,18 @@ img {
 }
 
 #output {
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(3, 20%);
+    display: flex;
+    flex-flow: wrap;
     color: white;
+}
+
+span {
+    width: 30%;
+}
+
+.card-content {
+    border: 1px white solid;
+    height: 500px;
+    margin: 1em;
+    padding: 1em;
 }

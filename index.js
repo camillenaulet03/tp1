@@ -5,18 +5,18 @@ async function search() {
         .then((data) => {
             document.getElementById('output').innerHTML = data.results
                 .map((movie) =>
-                        `
-                          <span>
-                            <h2>${movie.original_title}</h2>
+                    `
+                        <span>  
                             <div class="card-content">
-                              <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}"></img>
-                              <div class="infos">
-                                <p>${movie.overview}</p>
-                                <p>Popularité : ${movie.popularity}</p>
-                              </div>
+                                <h2>${movie.original_title}</h2>
+                                <img src="https://image.tmdb.org/t/p/w500${movie.poster_path}"></img>
+                                <div class="infos">
+                                    <p>${movie.overview}</p>
+                                    <p>Popularité : ${movie.popularity}</p>
+                                </div>
                             </div>
-                          </span>
-                        `
+                        </span>
+                    `
                 ).join("");
         })
 }
