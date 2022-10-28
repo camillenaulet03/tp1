@@ -1,0 +1,27 @@
+body {
+    background: black;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.white {
+    color: white;
+}
+
+input {
+    width: 20%;
+    margin: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+img {
+    width: 30%;
+}
+
+#output {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3, 20%);
+    color: white;
+}
