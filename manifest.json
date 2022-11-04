@@ -11,7 +11,8 @@
     {
       "src": "./Icons/icon-192x192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "./Icons/icon-512x512.png",
