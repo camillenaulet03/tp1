@@ -1,0 +1,34 @@
+{
+  "name": "What Watch",
+  "short_name": "ww",
+  "description": "app what watch",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "white",
+  "theme_color": "white",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./Icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./Icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "*.html",
+        "*.css",
+        "*.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
